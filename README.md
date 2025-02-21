@@ -31,7 +31,7 @@ Installation & Setup
 
 If using Git, clone the repository:
 
-git clone https://github.com/NicoleMbera/submission_reminder_app.git
+git clone https://github.com/NicoleMbera/submission_reminder_app_NicoleMbera.git
 cd submission_reminder
 
 If not using Git, download and extract the repository manually.
@@ -39,7 +39,7 @@ If not using Git, download and extract the repository manually.
 2. Make Scripts Executable
 
 Ensure the necessary scripts have execution permissions:
-
+chmod +x create_environment.sh
 chmod +x startup.sh
 chmod +x modules/functions.sh
 
@@ -52,7 +52,7 @@ nano config/config.env
 Example configuration:
 
 ASSIGNMENT="Final Project Report"
-DAYS_REMAINING=5
+DAYS_REMAINING=2
 
 Save and exit (CTRL + X, then Y to confirm changes).
 
@@ -74,10 +74,10 @@ Expected Output
 
 If everything runs correctly, the output should look like this:
 
-======== Submission Reminder System ========
-Reminder for Assignment: Final Project Report
-Deadline Approaching: 5 days left
---------------------------------------------
+-----------------------------------
+Current Task: Shell Navigation
+Deadline: 2 days remaining
+----------------------------------------
 Checking submission status...
 
 Troubleshooting
